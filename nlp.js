@@ -1,10 +1,10 @@
 window.API = {
-    generateResponse: (input) => {
-        if (!Array.isArray(input)) {
-            console.error("getResponse input is not an array!");
-            return "Could not resolve conversation!";
+    generateResponse: (convo) => {
+        if (!Array.isArray(convo) || convo.length < 1) {
+            return "I don't know what you are talking about.";
         }
 
+        console.log(convo);
         return "Yey!";
     }
-}
+};
