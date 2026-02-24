@@ -5,6 +5,8 @@ window.API = {
         }
 
         console.log(convo);
+        console.log(`Last user input: ${convo[convo.length - 1]}`);
+
         return "Yey!";
     }
 };
