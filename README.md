@@ -1,6 +1,8 @@
 # NLP Frontend API
 by Khian Victory D. Calderon
 
+![Preview](images/preview.png)
+
 ## Usage (For vanilla HTML)
 1. In your javascript file:
     ```js
