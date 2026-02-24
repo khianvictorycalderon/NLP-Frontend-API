@@ -1,4 +1,5 @@
 # NLP Frontend API
+by Khian Victory D. Calderon
 
 ## Usage (For vanilla HTML)
 1. In your javascript file:
